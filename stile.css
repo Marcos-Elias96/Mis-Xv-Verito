@@ -1,0 +1,317 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d39e9a;
+    color: #f7f4f4;
+  }
+  
+ body, html {
+  margin: 0;
+  padding: 0;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.portada {
+  min-height: 100vh;
+  background-image: url('portada2.jpg'); /* Tu imagen de portada */
+  background-size: contain; /* Aquí se ajusta la imagen para no recortarla */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white 300px;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+  text-align: center;
+}
+
+.portada h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.portada p {
+  font-size: 24px;
+  margin: 10px 0 0 0;
+}
+
+.contenido {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 50px 20px;
+}
+
+.tarjeta {
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.portada h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.portada p {
+  font-size: 24px;
+  margin: 10px 0 0 0;
+}
+
+.contenido {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 50px 20px;
+}
+
+.tarjeta {
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+  
+  header.hero h1 {
+    font-size: 5em;
+    margin-bottom: 10px;
+  }
+  
+  header.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  header.hero button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #d39e9a;
+    color: rgb(243, 237, 237);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para las secciones */
+  section {
+    padding: 60px 1px;
+    text-align: center;
+  }
+
+
+  
+  /* Estilo del contenedor para las imágenes de los padres y padrinos */
+  .contenedor-imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  
+  
+  /* Estilo de las imágenes cuadradas */
+  .imagen-cuadro {
+    width: 700px;
+    height: 500px;
+    object-fit: contain;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(247, 245, 245, 0.3);
+  }
+  
+  /* Estilo de los títulos */
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  
+  .detalle-evento {
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  /* Estilo de los botones */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #140201;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para la galería */
+  .galeria {
+    text-align: center;
+    padding: 15px 500px;
+  
+  }
+  
+  
+  .slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .slider img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(248, 247, 247, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .slider button {
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .galeria .imagenes img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Estilo para el pie de página */
+  footer {
+    background-color: #140201;
+    color: white;
+    text-align: center;
+    padding:20px;
+  }
+
+  .mensaje p {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Playwrite AU SA ExtraLight',cursive;
+}
+@font-face {
+    font-family: 'Playwrite AU SA ExtraLight';
+    src: url('../fonts/PlaywriteAUSAE-ExtraLight.woff2') format('woff2'),
+     url('../fonts/PlaywriteAUSAE-ExtraLight.woff')format('woff');
+    font-weight: normal;
+    font-style:normal;
+}
+
+body  {
+  animation: fadeIn 2s ease-in;
+
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1;  }  
+  }
+
+
+  .boton-confirmar {
+    background-color: #86690a; /* Un color azul llamativo */
+    color: white; /* Texto blanco para contraste */
+    padding: 10px 20px; /* Espaciado interior para hacerlo más grande */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados para un aspecto suave */
+    cursor: pointer; /* Cambia el cursor al pasar por encima para indicar que es clickable */
+    font-size: 16px; /* Un tamaño de fuente legible */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+  }
+
+  
+  
+  .boton-confirmar:hover {
+    background-color: #010b16; /* Un tono de azul más oscuro al pasar el ratón */
+  }
+
+  .boton {
+    background-color: #d88c9a;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0-3s;
+
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.manuscrita {
+  font-family: 'Dancing Script', cursive;
+  font-size: 64px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  color:white;
+}
+.mariposa {
+  position: fixed; /* Para que las mariposas se queden en su lugar mientras se hace scroll */
+  z-index: 1000; /* Para que estén por encima de otros elementos */
+  opacity: 0; /* Inicialmente invisibles */
+  animation: aparecerDesaparecer 5s infinite alternate; /* Nombre de la animación, duración, repetición, dirección */
+  transform-origin: center center; /* Punto de origen para la animación (opcional) */
+}
+
+.mariposa img {
+  width: 50px; /* Tamaño de las mariposas (ajusta según necesites) */
+  height: auto;
+  display: block;
+}
+
+
+
+.mariposa {
+  position: fixed;
+  z-index: 1000;
+  opacity: 0;
+  animation: aparecerDesaparecer 5s infinite alternate;
+  transform-origin: center center;
+}
+
+.mariposa img {
+  width: 100px; /* Aumentamos el tamaño de las mariposas (ajusta según necesites) */
+  height: auto;
+  display: block;
+}
+
+
+
+/* CSS para la animación de la mariposa */
+.mariposa {
+  position: fixed; /* Para que se queden fijas al hacer scroll */
+  z-index: 1000; /* Para que estén por encima de otros elementos */
+  opacity: 0; /* Inicialmente invisibles */
+  animation: aparecerDesaparecer 5s infinite alternate; /* Nombre, duración, repetición, dirección */
+  transform-origin: center center; /* Punto de origen para la rotación */
+  pointer-events: none; /* Para que no interfieran con los clics en otros elementos */
+}
+
+
+
+.contenedor-imagen-padrinos {
+  width: 250px; /* Define el ancho deseado (ajústalo al tamaño de las otras imágenes) */
+  height: 250px; /* Define la altura deseada (ajústala al tamaño de las otras imágenes) */
+  overflow: hidden; /* Oculta cualquier parte de la imagen que exceda el contenedor */
+  border-radius: 15px; /* Opcional: si las otras imágenes tienen bordes redondeados */
+  margin: 10px auto; /* Opcional: para centrar la imagen y darle un poco de espacio */
+  box-shadow: 0 4px 8px rgba(247, 245, 245, 0.3); /* Opcional: si las otras imágenes tienen sombra */
+}
+
+.contenedor-imagen-padrinos img {
+  width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+  height: 100%; /* La imagen ocupa toda la altura del contenedor */
+  object-fit: cover; /* Recorta la imagen para llenar el contenedor manteniendo su aspecto */
+}
