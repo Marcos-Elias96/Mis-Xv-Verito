@@ -5,8 +5,12 @@ const imagenes = [
     "foto3.jpg",
     "foto4.jpg",
     "foto5.jpg",
+    "niñas.jpg",
     "foto6.jpg",
     "foto7.jpg",
+    "fotojose.jpg",
+    "forobello.jpg",
+    
   ];
   
   let index = 0;
