@@ -23,3 +23,11 @@ const imagenes = [
     index = (index - 1 + imagenes.length) % imagenes.length;
     img.src = imagenes[index];
   });
+
+  const playButton = document.getElementById('playButton');
+const backgroundMusic = document.getElementById('backgroundMusic');
+
+playButton.addEventListener('click', () => {
+  backgroundMusic.play();
+  playButton.style.display = 'none'; // Ocultar el botón después de hacer clic
+});
