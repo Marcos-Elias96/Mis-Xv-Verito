@@ -290,3 +290,24 @@ body  {
   object-fit: cover; /* Recorta la imagen para llenar el contenedor manteniendo su aspecto */
 }
 
+.evento-recepcion {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.info-recepcion {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.mapa-recepcion {
+  flex: 1;
+  min-width: 300px; /* Asegura un ancho mínimo */
+}
+
+.mapa-recepcion iframe {
+  width: 100%; /* El iframe ocupa el 100% del ancho de su contenedor (.mapa-recepcion) */
+  height: auto;
+  min-height: 200px;
+}
