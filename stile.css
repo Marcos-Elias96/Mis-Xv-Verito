@@ -3,8 +3,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #d39e9a;
-    color: #eaf0ef;
+    background-color: #267685;
+    color: #000706;
   }
   
  body, html {
@@ -151,7 +151,7 @@ body, html {
     width: 300px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(248, 247, 247, 0.2);
+    box-shadow: 0 4px 10px rgba(131, 42, 116, 0.2);
     transition: all 0.3s ease;
   }
 
@@ -309,5 +309,5 @@ body  {
 .mapa-recepcion iframe {
   width: 100%; /* El iframe ocupa el 100% del ancho de su contenedor (.mapa-recepcion) */
   height: auto;
-  min-height: 200px;
+  min-height:200px;
 }
