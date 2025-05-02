@@ -78,7 +78,7 @@ body, html {
   header.hero button {
     padding: 10px 20px;
     font-size: 1em;
-    background-color: #d39e9a;
+    background-color: #d3cd9a;
     color: rgb(243, 237, 237);
     border: none;
     border-radius: 5px;
@@ -130,7 +130,7 @@ body, html {
   .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #140201;
+    background-color: #fd5b52;
     color: rgba(247, 245, 239, 0.918);
     text-decoration: none;
     border-radius: 5px;
@@ -163,7 +163,7 @@ body, html {
   
   /* Estilo para el pie de página */
   footer {
-    background-color: #140201;
+    background-color: #8e10c0;
     color: white;
     text-align: center;
     padding:20px;
@@ -195,7 +195,7 @@ body  {
 
 
   .boton-confirmar {
-    background-color: #86690a; /* Un color azul llamativo */
+    background-color: #d625c7; /* Un color azul llamativo */
     color: white; /* Texto blanco para contraste */
     padding: 10px 20px; /* Espaciado interior para hacerlo más grande */
     border: none; /* Sin borde */
@@ -208,11 +208,11 @@ body  {
   
   
   .boton-confirmar:hover {
-    background-color: #010b16; /* Un tono de azul más oscuro al pasar el ratón */
+    background-color: #7aaadd; /* Un tono de azul más oscuro al pasar el ratón */
   }
 
   .boton {
-    background-color: #d88c9a;
+    background-color: #1a0fad;
     color: white;
     padding: 12px 24px;
     border: none;
@@ -310,4 +310,8 @@ body  {
   width: 100%; /* El iframe ocupa el 100% del ancho de su contenedor (.mapa-recepcion) */
   height: auto;
   min-height:200px;
+}
+
+.nombres-papas {
+  font-size: 22px; /* Prueba con este valor inicial y ajústalo según necesites */
 }
