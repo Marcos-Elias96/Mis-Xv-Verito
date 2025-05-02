@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #267685;
-    color: #000706;
+    color: #f6faf9;
   }
   
  body, html {
@@ -163,7 +163,7 @@ body, html {
   
   /* Estilo para el pie de página */
   footer {
-    background-color: #8e10c0;
+    background-color: #a30b25;
     color: white;
     text-align: center;
     padding:20px;
